@@ -4,15 +4,27 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
                 <p>Ready to enhance the health of your company? Contact us by one of the methods below.</p>
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#email-modal"><i class="fa fa-envelope-o"></i> Join our mailing list</button>
+
+
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
                     </li>
                     {% endfor %}
                 </ul>
             </div>
         </div>
     </section>
+    <div class="modal fade" id="email-modal" tabindex="-1" role="dialog" aria-labelledby="email-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <iframe width="100%" height="500px" src="http://visitor.r20.constantcontact.com/d.jsp?llr=atex4hsab&p=oi&m=1119107125856&sit=tdaeisgjb&f=ef80b42c-1ec9-471e-98e4-3cab13b5ce8a"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
