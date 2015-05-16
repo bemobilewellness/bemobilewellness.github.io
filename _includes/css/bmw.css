@@ -1,3 +1,9 @@
+/* Header Section */
+.header-widget healcode-widget {
+  padding: 15px;
+  display: block;
+}
+
 /* Download/Services Section */
 .download-section ul {
   list-style-type: none;
