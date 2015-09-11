@@ -1,3 +1,72 @@
+/*
+  Colors:
+  text: #318483;
+  background: #f3f3f3;
+  butons/nav: #f37250;
+  headings/links: #f37250;
+*/
+
+/* Overrides */
+body {
+  background-color: #f3f3f3;
+  color: #318483;
+}
+
+h1 { color: #f3f3f3; }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f37250;
+}
+
+a {
+  color: #f37250;
+}
+
+.top-nav-collapse {
+  background-color: #f3f3f3;
+}
+
+.navbar-custom a {
+  color: #f37250;
+}
+
+.navbar-custom .nav li.active {
+  background-color: #f37250;
+
+}
+.navbar-custom .nav li.active a {
+  color: #f3f3f3;
+}
+
+
+/* Button overrides */
+.btn-default {
+  border: 1px solid #f37250;
+  color: #f37250;
+}
+
+.btn-default:active, .btn-default:focus, .btn-default:hover {
+  border: 1px solid #f37250;
+  background-color: #f37250;
+  color: #f3f3f3;
+}
+
+.btn-info {
+  border: 1px solid #f37250;
+  background-color: #f37250;
+  color: #f3f3f3;
+}
+
+.btn-info:active, .btn-info:focus, .btn-info:hover {
+  border: 1px solid #f37250;
+  background-color: #f3f3f3;
+  color: #f37250;
+}
+
+
 /* Header Section */
 .header-widget healcode-widget {
   padding: 15px;
