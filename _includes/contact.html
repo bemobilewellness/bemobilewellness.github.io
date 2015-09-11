@@ -3,14 +3,16 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
-            <p>Ready to enhance the health of your company?<br/>
-            Contact us by one of the methods below.</p>
-            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#email-modal"><i class="fa fa-envelope-o"></i> Join our mailing list</button>
+            <p>Ready to enhance the health of your company?</p>
+
+            <p itemscope itemtype="http://schema.org/LocalBusiness">
+              Call us <span itemprop="telephone">{{ site.phone_number }}</span>
+            </p>
+
+            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#email-modal"><i class="fa fa-envelope-o"></i> Email us</button>
 
             <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#schedule-modal"><i class="fa fa-calendar"></i> Book now</button>
 
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </p>
             <ul class="list-inline banner-social-buttons">
                 {% for network in site.social %}
                 <li>
