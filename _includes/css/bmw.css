@@ -25,11 +25,15 @@ a {
   color: #f37250;
 }
 
+.navbar-custom a {
+  color: #f3f3f3;
+}
+
 .top-nav-collapse {
   background-color: #f3f3f3;
 }
 
-.navbar-custom a {
+.navbar-custom.top-nav-collapse a {
   color: #f37250;
 }
 
