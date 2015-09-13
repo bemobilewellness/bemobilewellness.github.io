@@ -46,6 +46,12 @@ a {
 }
 
 
+@media(min-width:767px) {
+  .intro .intro-body .intro-text {
+    font-size: 36px;
+  }
+}
+
 /* Button overrides */
 .btn-default {
   border: 1px solid #f37250;
