@@ -101,3 +101,8 @@ a {
 .download-section {
   text-shadow: 2px 2px 3px #000000;
 }
+
+/* Contact Section */
+ul.banner-social-buttons li {
+  display: inline-table;
+}
