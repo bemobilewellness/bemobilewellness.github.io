@@ -77,8 +77,13 @@ a {
 }
 
 .btn-circle, .btn-circle:active, .btn-circle:focus, .btn-circle:hover {
-  color: #f37250;
-  border: 4px solid #f37250;
+  color: #f3f3f3;
+  border: 4px solid #f3f3f3;
+}
+
+/* Intro section */
+.intro-text, .site-title {
+  text-shadow: 1px 1px 0 #000000;
 }
 
 /* Header Section */
@@ -91,4 +96,8 @@ a {
 .download-section ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.download-section {
+  text-shadow: 2px 2px 3px #000000;
 }
