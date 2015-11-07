@@ -106,3 +106,7 @@ a {
 ul.banner-social-buttons li {
   display: inline-table;
 }
+
+blockquote footer {
+  padding: 0;
+}
