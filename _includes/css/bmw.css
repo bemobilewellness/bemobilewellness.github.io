@@ -110,3 +110,12 @@ ul.banner-social-buttons li {
 blockquote footer {
   padding: 0;
 }
+
+/* Project WOO Page */
+.intro.projectwoo-intro {
+  background: url(/img/projectwoo-intro-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
