@@ -1,0 +1,65 @@
+---
+layout: page
+path: helpcenter
+---
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <h1 class="site-title brand-heading">Help Center</h1>
+                  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <p>
+                      <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section id='about' class="container content-section text-center">
+  <ul class="nav nav-tabs" role="tablist">
+    {% for tab_hash in site.data.help_center %}
+    {% assign tab = tab_hash[1] %}
+      <li role="presentation" class="{% if forloop.index0 == 0 %}active{% endif %}">
+        <a href="#{{ tab.id }}" role="tab" data-toggle="tab">{{ tab.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="tab-content">
+    {% for tab_hash in site.data.help_center %}
+    {% assign tab = tab_hash[1] %}
+      <div role="tabpanel" class="tab-pane {% if forloop.index0 == 0 %}active{% endif %}" id="{{ tab.id }}">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          {% for faq in tab.faqs %}
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                <h4 class="panel-title">
+                  {% if faq.link %}
+                    <a role="button" data-parent="#accordion" href="{{ faq.link }}">
+                  {% else %}
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ tab.id }}-{{ forloop.index }}" aria-expanded="true" aria-controls="collapse-{{ tab.id }}-{{ forloop.index }}">
+                  {% endif %}
+                    {{ faq.question }}
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse-{{ tab.id }}-{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                <div class="panel-body">
+                  {{ faq.answer }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+</section>
