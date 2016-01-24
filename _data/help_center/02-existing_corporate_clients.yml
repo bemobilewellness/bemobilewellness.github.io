@@ -6,7 +6,7 @@ faqs:
   - question: "Why can I not see past a week in the future on the schedule?"
     answer: "The massage schedule opens each week on Friday at 9:30 AM for the following week on Monday and Tuesday. There will be an email on Monday morning to alert you that the rest of the week is open. Not receiving these emails? Visit our website to sign-up for our email list"
   - question: "How do I sign up for Corporate Massage?"
-    answer: "Visit www.mindbody.com and register for an account. Please use your company email and physical address. You will also need to sign-up for the weekly emails on our website. Click on Subscribe to receive our weekly email alerts for when the Massage schedule opens."
+    answer: "Visit www.mindbody.com and register for an account. Please use your company email and company physical address. You will also need to sign-up for the weekly emails on our website. Click on Subscribe to receive our weekly email alerts for when the Massage schedule opens."
   - question: "Can we request a certain Therapist?"
     answer: "You will be able to choose a therapist of your choice."
   - question: "What if the door is closed and it is my turn for a session?"
@@ -15,4 +15,12 @@ faqs:
     answer: "You may not be subscribed. No worries, we can fix this in a jiffy! Please visit www.bemobilewellness.com and enter your company email. This way your email will make it to the correct email list."
   - question: "Why can't I book on Internet Explorer?"
     answer: "Our Online Booking system does not work with Internet Explorer. Please use Chrome for your browser."
- 
+   - question: "What is Perkville Rewards?"
+    answer: "Perkville is our Reward program for all clients."
+  - question: "What are the current rewards offered?"
+    answer: "Please visit our Rewards page http://www.perkville.com/biz/7482/."
+  - question: "Do I have to sign-up for the rewards Program?"
+    answer: "No. If you have booked a session online, you are already earning points."
+  - question: "How do I redeem my points?"
+    answer: "Please visit our Rewards page http://www.perkville.com/biz/7482/."
+    
