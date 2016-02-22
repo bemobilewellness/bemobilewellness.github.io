@@ -1,16 +1,52 @@
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>
-              <a href='https://clients.mindbodyonline.com/classic/ws?studioid=192309&stype=-7&sTG=22&sVT=8&sView=day'>SUP Classes</a> |
-              <a href='javascript:;' data-toggle="modal" data-target="#meet-the-team-modal">Meet the Team</a> |
-              <a href='/documents/policies.pdf'>Policies</a> |
-              <a href='javascript:;' data-toggle="modal" data-target="#testimonial-modal" >Testimonials</a> |
-              <a href='/helpcenter'>Help Center</a> |
-              <a href="http://bemobilewellnessblog.com/">Blog</a> |
-              <a href='{{ site.shop_link }}'>Shop</a>
-            </p>
-            <p>Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
+    <footer class='bmw'>
+        <div class="container">
+          <div class='row hidden-xs'>
+            <div class='col-sm-offset-2 col-sm-3'>
+              <h4>Company</h4>
+            </div>
+            <div class='col-sm-3'>
+              <h4>Customers</h4>
+            </div>
+            <div class='col-sm-3'>
+              <h4>Support</h4>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-sm-offset-2 col-sm-3 nav-menu-column'>
+              <h4 class='visible-xs-block'>Company</h4>
+              <ul class='list-unstyled'>
+                <li>
+                  <a href='javascript:;' data-toggle="modal" data-target="#meet-the-team-modal">Meet the Team</a>
+                </li>
+                <li><a href='/documents/policies.pdf'>Policies</a></li>
+                <li>
+                  <a href='javascript:;' data-toggle="modal" data-target="#testimonial-modal" >Testimonials</a>
+                </li>
+                <li>
+                  <a href='https://clients.mindbodyonline.com/classic/ws?studioid=192309&stype=-7&sTG=22&sVT=8&sView=day'>SUP Classes</a>
+                </li>
+                <li><a href="http://bemobilewellnessblog.com/">Blog</a></li>
+                <li><a href='{{ site.shop_link }}'>Shop</a></li>
+              </ul>
+            </div>
+            <div class='col-sm-3 nav-menu-column'>
+              <h4 class='visible-xs-block'>Customers</h4>
+              <ul class='list-unstyled'>
+                <li><a href='http://apttus.com/'>Apttus</a></li>
+                <li><a href='http://www.pettinellifp.com/'>Pettinelli</a></li>
+                <li><a href='http://www.westernallied.com/'>Western Allied</a></li>
+                <li><a href='https://www.sprinklr.com/'>Sprinklr</a></li>
+              </ul>
+            </div>
+            <div class='col-sm-3 nav-menu-column'>
+              <h4 class='visible-xs-block'>Support</h4>
+              <ul class='list-unstyled'>
+                <li><a href='/helpcenter'>Help Center</a></li>
+                <li>Live chat: 9am - 5pm</li>
+              </ul>
+            </div>
+          </div>
         </div>
     </footer>
     <div class="modal fade" id="meet-the-team-modal" tabindex="-1" role="dialog" aria-labelledby="meet-the-team-modal-label" aria-hidden="true">

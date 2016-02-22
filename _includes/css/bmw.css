@@ -119,3 +119,26 @@ blockquote footer {
 -o-background-size: cover;
 background-size: cover;
 }
+
+footer.bmw {
+  min-height: 300px;
+  background-color: #318483;
+}
+
+footer.bmw, footer.bmw a, footer.bmw h4 {
+  color: #f3f3f3;
+}
+
+footer.bmw a:hover {
+  color: #f37250;
+}
+
+footer.bmw .nav-menu-column {
+  border-left: 1px solid #f3f3f3;
+  min-height: 130px;
+}
+
+@media (max-width: 767px) {
+  footer.bmw { text-align: center; }
+  footer.bmw .nav-menu-column { border-left: none; }
+}
