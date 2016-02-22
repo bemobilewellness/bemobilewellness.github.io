@@ -3,11 +3,19 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
-            <p>Ready to enhance the health of your company?</p>
+
+            <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <strong>Office</strong>
+              <div itemprop="streetAddress">80 Eureka Square, Unit 140</div>
+              <span itemprop="addressLocality">Pacifica</span>,
+              <span itemprop="addressRegion">CA</soan>
+              <span itemprop="postalCode">94044</span>
+            </address>
 
             <p itemscope itemtype="http://schema.org/LocalBusiness">
-              Call us <span itemprop="telephone">{{ site.phone_number }}</span>
+              <i class='fa fa-phone'></i> <span itemprop="telephone">{{ site.phone_number }}</span>
             </p>
+
             <p>
               <a href='mailto:{{ site.email }}' class="btn btn-info btn-lg"><i class="fa fa-envelope-o"></i> Email us</a>
               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#schedule-modal"><i class="fa fa-calendar"></i> Book now</button>
