@@ -29,7 +29,7 @@ address {
   font-size: 20px;
 }
 
-.navbar-custom a {
+.navbar-custom a, .navbar-custom i {
   color: #f3f3f3;
 }
 
@@ -47,6 +47,14 @@ address {
 }
 .navbar-custom .nav li.active a {
   color: #f3f3f3;
+}
+
+.login-video-icon {
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 18px;
 }
 
 
