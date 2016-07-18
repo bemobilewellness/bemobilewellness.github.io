@@ -2,27 +2,27 @@
   Colors:
   text: #318483;
   background: #f3f3f3;
-  butons/nav: #f37250;
-  headings/links: #f37250;
+  butons/nav: #f37250; (#52c1b4)
+  headings/links: #ef4344;
 */
 
 /* Overrides */
 body {
   background-color: #f3f3f3;
-  color: #318483;
+  color: #000000;
 }
 
-h1 { color: #f3f3f3; margin-bottom: 20px; }
+h1 { color: #ef4344; margin-bottom: 20px; }
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #f37250;
+  color: #ef4344;
 }
 
 a {
-  color: #f37250;
+  color: #ef4344;
 }
 
 address {
@@ -30,7 +30,7 @@ address {
 }
 
 .navbar-custom a, .navbar-custom i {
-  color: #f3f3f3;
+  color: #ef4344;
 }
 
 .top-nav-collapse {
@@ -38,15 +38,15 @@ address {
 }
 
 .navbar-custom.top-nav-collapse a {
-  color: #f37250;
+  color: #ef4344;
 }
 
 .navbar-custom .nav li.active {
-  background-color: #f37250;
+  background-color: #ef4344;
 
 }
 .navbar-custom .nav li.active a {
-  color: #f3f3f3;
+  color: #ffffff;
 }
 
 .login-video-icon {
@@ -66,31 +66,32 @@ address {
 
 /* Button overrides */
 .btn-default {
-  border: 1px solid #f37250;
-  color: #f37250;
+  border: 1px solid #000000;
+  background-color: #eed813;
+  color: #000000;
 }
 
 .btn-default:active, .btn-default:focus, .btn-default:hover {
-  border: 1px solid #f37250;
-  background-color: #f37250;
-  color: #f3f3f3;
+  border: 1px solid #eed813;
+  background-color: #000000;
+  color: #eed813;
 }
 
 .btn-info {
   border: 1px solid #f3f3f3;
-  background-color: #f37250;
+  background-color: #52c1b4;
   color: #f3f3f3;
 }
 
 .btn-info:active, .btn-info:focus, .btn-info:hover {
-  border: 1px solid #f37250;
-  background-color: #f3f3f3;
-  color: #f37250;
+  border: 1px solid #52c1b4;
+  background-color: #ffffff;
+  color: #52c1b4;
 }
 
 .btn-circle, .btn-circle:active, .btn-circle:focus, .btn-circle:hover {
-  color: #f3f3f3;
-  border: 4px solid #f3f3f3;
+  color: #ef4344;
+  border: 4px solid #ef4344;
 }
 
 /* Intro section */
@@ -134,19 +135,19 @@ background-size: cover;
 
 footer.bmw {
   min-height: 300px;
-  background-color: #318483;
+  background-color: #eed813;
 }
 
 footer.bmw, footer.bmw a, footer.bmw h4 {
-  color: #f3f3f3;
+  color: #000000;
 }
 
 footer.bmw a:hover {
-  color: #f37250;
+  color: #000000;
 }
 
 footer.bmw .nav-menu-column {
-  border-left: 1px solid #f3f3f3;
+  border-left: 1px solid #000000;
   min-height: 130px;
 }
 
