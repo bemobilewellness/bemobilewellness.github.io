@@ -98,6 +98,9 @@ address {
 .intro-text, .site-title {
   text-shadow: 1px 1px 0 #000000;
 }
+.main-logo {
+  max-height: 300px;
+}
 
 /* Header Section */
 .header-widget healcode-widget {
