@@ -115,6 +115,14 @@ address {
   text-shadow: 2px 2px 3px #000000;
 }
 
+.download-section .row {
+  margin-bottom: 10px;
+}
+
+.download-section .media img {
+  max-height: 90px;
+}
+
 /* Contact Section */
 ul.banner-social-buttons li {
   display: inline-table;
