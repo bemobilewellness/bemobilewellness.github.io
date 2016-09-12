@@ -102,6 +102,12 @@ address {
   max-height: 300px;
 }
 
+@media (min-width: 992px) {
+  .main-section {
+    margin-top: -250px;
+  }
+}
+
 /* Header Section */
 .header-widget healcode-widget {
   padding: 15px;
