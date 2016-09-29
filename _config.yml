@@ -33,8 +33,8 @@ social:
 # Set to false to remove the ribbon
 ribbon:
   enabled: true
-  text: Project WOO
-  link: /projectwoo
+  text: Download Our App!
+  link: http://mndbdy.ly/e/192309
 
 
 # Build settings
