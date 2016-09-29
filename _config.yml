@@ -31,7 +31,11 @@ social:
 
 # The ribbon in ribbon.html will be rendered when this is true
 # Set to false to remove the ribbon
-ribbon: true
+ribbon:
+  enabled: true
+  text: Download Our App!
+  link: http://mndbdy.ly/e/192309
+
 
 # Build settings
 markdown: kramdown
