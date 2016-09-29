@@ -57,6 +57,10 @@ address {
   top: 18px;
 }
 
+i.sign-up-video-icon {
+  color: #52c1b4;
+  cursor: pointer;
+}
 
 /*@media(min-width:767px) {
   .intro .intro-body .intro-text {
