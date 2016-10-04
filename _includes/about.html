@@ -3,15 +3,26 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About</h2>
-                <p>
-                  I am fortunate enough to have found my passion at 19 years old in Massage Therapy, which led to my Yoga certification,
-                  then Stand-up Paddleboard certification. Ecstatic about being my own boss for 2 years,
-                  I must mention that I have 2 outstanding companies who use Massage and Yoga on regular basis,
-                  as a complimentary service to their employees, 2 marvelous team members and never-ending opportunities in my future!
-                </p>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  {% for about in site.data.about %}
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ about.id }}-{{ forloop.index }}" aria-expanded="true" aria-controls="collapse-{{ tab.id }}-{{ forloop.index }}">
+                            {{ about.header }}
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse-{{ about.id }}-{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+                        <div class="panel-body">
+                          {{ about.text }}
+                        </div>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
                 <p>
                   <a class="pull-left" href="/documents/policies.pdf">Policies</a>
-                  <a class="pull-right" href="/documents/about.pdf">Read more...</a><br/>
                 </p>
             </div>
         </div>
