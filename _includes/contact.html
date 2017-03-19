@@ -16,10 +16,7 @@
               <i class='fa fa-phone'></i> <span itemprop="telephone">{{ site.phone_number }}</span>
             </p>
 
-            <p>
-              <a href='mailto:{{ site.email }}' class="btn btn-info btn-lg"><i class="fa fa-envelope-o"></i> Email us</a>
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#schedule-modal"><i class="fa fa-calendar"></i> Book now</button>
-            </p>
+            <p>{% include embedded_email_form.html  %}</p>
 
             {% include social_buttons.html %}
         </div>
