@@ -30,7 +30,7 @@ social:
 # The ribbon in ribbon.html will be rendered when this is true
 # Set to false to remove the ribbon
 ribbon:
-  enabled: true
+  enabled: false
   text: Download Our App!
   link: http://mndbdy.ly/e/192309
 
