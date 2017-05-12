@@ -11,6 +11,11 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+sign_up_video:
+  enabled: false
+  title: Sign-up video
+  url: https://www.youtube.com/embed/P7rFPeSrAYI
+
 # Footer settings
 footer: Be Mobile Wellness
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
