@@ -27,7 +27,9 @@
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#class-schedule-modal">
                           Class Sign-up <i class="fa fa-calendar"></i>
                         </button>
-                        <!-- <i data-behavior='popup-video' data-modal-target='#sign-up-video-modal' class='fa fa-question-circle sign-up-video-icon'></i> -->
+                        {% if site.sign_up_video.enabled %}
+                          <i data-behavior='popup-video' data-modal-target='#sign-up-video-modal' class='fa fa-question-circle sign-up-video-icon'></i>
+                        {% endif %}
                         <p>
                           <br/>
                           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#request-quote-modal">Request a Quote</button>
@@ -37,17 +39,3 @@
             </div>
         </div>
     </header>
-
-    <div class="modal fade" id="sign-up-video-modal" tabindex="-1" role="dialog" aria-labelledby="sign-up-video-modal-label" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="sign-up-video-label">Class Sign-up Demo</h4>
-          </div>
-          <div class="modal-body">
-            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/P7rFPeSrAYI" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
