@@ -10,9 +10,20 @@
                     <div class="col-md-6">
                         <!-- <p class="intro-text">{{ site.sub_title }}</p> -->
                         <br/></br/><br/></br/><br/></br/>
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#schedule-modal">
-                          <i class="fa fa-calendar"></i> Book now
-                        </button>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-lg btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-calendar"></i> Book now</button>
+                          <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            {% for booknow in site.data.booknow %}
+                              <li>
+                                <a href="{{ booknow.url }}">{{ booknow.text }}</a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        </div>
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#class-schedule-modal">
                           Class Sign-up <i class="fa fa-calendar"></i>
                         </button>
