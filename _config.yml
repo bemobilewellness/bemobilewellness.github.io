@@ -16,6 +16,10 @@ sign_up_video:
   title: Sign-up video
   url: https://www.youtube.com/embed/P7rFPeSrAYI
 
+slideshow:
+  images: '["img/intro-bg.jpg", "img/home-slideshow-2.jpg", "img/home-slideshow-3.jpg"]'
+  delay: 7000
+
 # Footer settings
 footer: Be Mobile Wellness
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
