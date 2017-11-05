@@ -142,8 +142,8 @@ i.sign-up-video-icon {
   margin-bottom: 10px;
 }
 
-.download-section .media img {
-  max-height: 90px;
+.download-section .section img.icon {
+  max-height: 120px;
 }
 
 /* Contact Section */
