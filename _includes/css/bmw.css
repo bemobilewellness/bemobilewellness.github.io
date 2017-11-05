@@ -112,7 +112,7 @@ i.sign-up-video-icon {
 
 /* Intro section */
 .main-logo {
-  max-height: 300px;
+  max-height: 180px;
 }
 
 @media (min-width: 992px) {
