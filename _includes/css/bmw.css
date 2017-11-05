@@ -98,6 +98,18 @@ i.sign-up-video-icon {
   border: 4px solid #ef4344;
 }
 
+.btn-success {
+  border: 1px solid #52c1b4;
+  background-color: #ffffff;
+  color: #52c1b4;
+}
+
+.btn-success:active, .btn-success:focus, .btn-success:hover {
+  border: 1px solid #f3f3f3;
+  background-color: #52c1b4;
+  color: #f3f3f3;
+}
+
 /* Intro section */
 .main-logo {
   max-height: 300px;
