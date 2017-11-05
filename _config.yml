@@ -38,6 +38,8 @@ ribbon:
   text: Download Our App!
   link: http://mndbdy.ly/e/192309
 
+leadpage:
+  enabled: false
 
 # Build settings
 markdown: kramdown
