@@ -134,6 +134,10 @@ i.sign-up-video-icon {
 .download-section {
   color: #000;
 }
+.download-section h2, .download-section h3 {
+  color: black;
+}
+
 .download-section ul {
   list-style-type: none;
   padding-left: 0;
