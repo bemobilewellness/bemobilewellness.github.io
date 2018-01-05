@@ -99,15 +99,15 @@ i.sign-up-video-icon {
 }
 
 .btn-success {
-  border: 1px solid #52c1b4;
+  border: 1px solid #ef4344;
   background-color: #ffffff;
-  color: #52c1b4;
+  color: #ef4344;
 }
 
 .btn-success:active, .btn-success:focus, .btn-success:hover {
-  border: 1px solid #f3f3f3;
-  background-color: #52c1b4;
-  color: #f3f3f3;
+  border: 1px solid #ffffff;
+  background-color: #ef4344;
+  color: #ffffff;
 }
 
 /* Intro section */
