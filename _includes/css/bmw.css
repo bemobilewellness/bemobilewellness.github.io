@@ -160,6 +160,19 @@ blockquote footer {
   padding: 0;
 }
 
+/* Now Hiring Page */
+.intro.now-hiring-intro {
+  background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.now-hiring-intro h1 {
+  color: black;
+}
+
 /* Project WOO Page */
 .intro.projectwoo-intro {
   background: url(/img/projectwoo-intro-bg.jpg) no-repeat center center scroll;
