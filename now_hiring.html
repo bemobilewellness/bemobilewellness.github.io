@@ -1,0 +1,26 @@
+---
+layout: page
+path: now_hiring
+---
+
+<header class="intro now-hiring-intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <h1 class="site-title brand-heading">Now Hiring</h1>
+                  {% if site.now_hiring.video.enabled %}
+                    <iframe src="{{ site.now_hiring.video.url }}" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  {% endif %}
+                  <a href="https://vanessaragains.typeform.com/to/OIFjF3" target="_blank" class="btn btn-info btn-lg typeform-share button" data-mode="popup">
+                    Get Started here - Application Form
+                  </a>
+                  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+{% include contact.html %}

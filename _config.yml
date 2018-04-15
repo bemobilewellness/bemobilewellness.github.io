@@ -20,6 +20,11 @@ slideshow:
   images: '["img/intro-bg.jpg", "img/home-slideshow-2.jpg", "img/home-slideshow-3.jpg"]'
   delay: 7000
 
+now_hiring:
+  video:
+    enabled: false
+    url: https://player.vimeo.com/video/262857964
+
 # Footer settings
 footer: Be Mobile Wellness
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
