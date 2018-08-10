@@ -19,14 +19,16 @@
                           <ul class="dropdown-menu">
                             {% for booknow in site.data.booknow %}
                               <li>
-                                <a href="{{ booknow.url }}">{{ booknow.text }}</a>
+                                <a href="{{ booknow.url }}" {% if booknow.modal %} data-toggle="modal" data-target="{{ booknow.modal_target }}" {% endif %}>
+                                  {{ booknow.text }}
+                                </a>
                               </li>
                             {% endfor %}
                           </ul>
                         </div>
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#class-schedule-modal">
-                          Class Sign-up <i class="fa fa-calendar"></i>
-                        </button>
+                        <a class="btn btn-alert btn-lg" href="https://anatomy-nerd.mn.co/">
+                          Anatomy Nerd
+                        </a>
                         {% if site.sign_up_video.enabled %}
                           <i data-behavior='popup-video' data-modal-target='#sign-up-video-modal' class='fa fa-question-circle sign-up-video-icon'></i>
                         {% endif %}

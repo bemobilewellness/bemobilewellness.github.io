@@ -4,3 +4,7 @@
   url: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=109168&k_class_tab=5155&k_service=58509
 - text: Sprinklr
   url: https://www.wellnessliving.com/rs/appointment-start.html?id_class_tab=3&k_business=109168&k_class_tab=5154&k_service=58511
+- text: Class Sign-Up
+  url: 'javascript:;'
+  modal: true
+  modal_target: '#class-schedule-modal'

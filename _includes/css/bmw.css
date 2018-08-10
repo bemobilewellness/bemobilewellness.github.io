@@ -110,6 +110,18 @@ i.sign-up-video-icon {
   color: #ffffff;
 }
 
+.btn-alert {
+  border: 1px solid #ffffff;
+  background-color: #ef4344;
+  color: #ffffff;
+}
+
+.btn-alert:active, .btn-alert:focus, .btn-alert:hover {
+  border: 1px solid #ef4344;
+  background-color: #ffffff;
+  color: #ef4344;
+}
+
 /* Intro section */
 .main-logo {
   margin-top: 35px;
