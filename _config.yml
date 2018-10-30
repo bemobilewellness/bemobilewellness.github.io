@@ -33,12 +33,8 @@ social:
     url: https://www.facebook.com/BeMobileWellness
   - title: linkedin
     url: https://linkedin.com/in/vanessaragains
-  - title: 'google-plus'
-    url: https://google.com/+VanessaRagains
   - title: instagram
     url: https://instagram.com/be_mobile_wellness
-  - title: youtube
-    url: 'https://www.youtube.com/c/VanessaRagains'
 
 # The ribbon in ribbon.html will be rendered when this is true
 # Set to false to remove the ribbon
