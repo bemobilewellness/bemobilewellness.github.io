@@ -4,38 +4,41 @@
             <div class="container">
                 <div class="row main-section">
                     <div class="col-md-6">
+                      <div class="intro-spacer">
+                        <br/></br/><br/></br/><br/></br/>
+                      </div>
                       <h1 class="sr-only">{{ site.title }}</h1>
                       <img class="main-logo" src="/img/secondary-logo.png" alt="{{ site.title }}" />
-                    </div>
-                    <div class="col-md-6">
-                        <!-- <p class="intro-text">{{ site.sub_title }}</p> -->
-                        <br/></br/><br/></br/><br/></br/>
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-lg btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-calendar"></i> Book now</button>
-                          <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="caret"></span>
-                            <span class="sr-only">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                            {% for booknow in site.data.booknow %}
-                              <li>
-                                <a href="{{ booknow.url }}" {% if booknow.modal %} data-toggle="modal" data-target="{{ booknow.modal_target }}" {% endif %}>
-                                  {{ booknow.text }}
-                                </a>
-                              </li>
-                            {% endfor %}
-                          </ul>
-                        </div>
-                        <a class="btn btn-alert btn-lg" href="https://anatomy-nerd.mn.co/">
-                          Anatomy Nerd
-                        </a>
-                        {% if site.sign_up_video.enabled %}
-                          <i data-behavior='popup-video' data-modal-target='#sign-up-video-modal' class='fa fa-question-circle sign-up-video-icon'></i>
-                        {% endif %}
-                        <p>
-                          <br/>
-                          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#request-quote-modal">Take advantage of our 3-Month Special</button>
-                        </p>
+                      <div>
+                          <!-- <p class="intro-text">{{ site.sub_title }}</p> -->
+
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-lg btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-calendar"></i> Book now</button>
+                            <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="caret"></span>
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              {% for booknow in site.data.booknow %}
+                                <li>
+                                  <a href="{{ booknow.url }}" {% if booknow.modal %} data-toggle="modal" data-target="{{ booknow.modal_target }}" {% endif %}>
+                                    {{ booknow.text }}
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </div>
+                          <a class="btn btn-alert btn-lg" href="https://anatomy-nerd.mn.co/">
+                            Anatomy Nerd
+                          </a>
+                          {% if site.sign_up_video.enabled %}
+                            <i data-behavior='popup-video' data-modal-target='#sign-up-video-modal' class='fa fa-question-circle sign-up-video-icon'></i>
+                          {% endif %}
+                          <p>
+                            <br/>
+                            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#request-quote-modal">Take advantage of our 3-Month Special</button>
+                          </p>
+                      </div>
                     </div>
                 </div>
             </div>

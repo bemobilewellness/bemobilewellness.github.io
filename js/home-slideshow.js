@@ -1,3 +1,4 @@
+// Currently unused
 (function($) {
   'use strict';
 

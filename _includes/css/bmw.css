@@ -195,6 +195,7 @@ background-size: cover;
 }
 
 .intro {
+  background-position-y: 25%;
   -webkit-transition:all 1s ease-in;
   -moz-transition:all 1s ease-in;
   -o-transition:all 1s ease-in;
@@ -291,4 +292,19 @@ footer.bmw .nav-menu-column {
 @media (max-width: 767px) {
   footer.bmw { text-align: center; }
   footer.bmw .nav-menu-column { border-left: none; }
+}
+
+@media (max-width: 992px) {
+  .intro {
+    text-align: left;
+  }
+  .intro-spacer {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  img.main-logo {
+    max-width: 60%
+  }
 }
