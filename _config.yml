@@ -16,6 +16,8 @@ sign_up_video:
   title: Sign-up video
   url: https://www.youtube.com/embed/P7rFPeSrAYI
 
+vagaro_popup_script: https://www.vagaro.com//resources/WidgetPopupLoader/OZqnCJ0rCJCcT3qmV35y6RuQlXiz3avV34mC2PlFLDbSdPfOsLp9dSycPCu7gevEhAJDXwQ0?v=syBdFF12pfvsGLlyNMFog7iYZAeY5j15frm5uzKyES20#
+
 slideshow:
   images: '["img/intro-bg.jpg", "img/home-slideshow-2.jpg", "img/home-slideshow-3.jpg"]'
   delay: 7000
