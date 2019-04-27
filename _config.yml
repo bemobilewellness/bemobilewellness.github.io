@@ -1,10 +1,10 @@
 # Site settings
 title: Be Mobile Wellness
-sub_title: Redefining the Standard of Corporate Wellness!
-email: support@BeMobileWellness.com
+sub_title: When you invest in your employees' health, you invest in your cpmapny's wealth!
+email: hello@BeMobileWellness.com
 phone_number: '(650) 516-7441'
 url: http://BeMobileWellness.com
-description: "Be Mobile Wellness offers on-site Corporate Wellness services such as Table Massage, Yoga, and Fitness Coahcing."
+description: "Join my movement creating a healthy workplace culture with on-site massage and the Anatomy Nerd community."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,11 +32,11 @@ footer: Be Mobile Wellness
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: https://www.facebook.com/BeMobileWellness
+    url: https://www.facebook.com/TheAnatomyNerd/
   - title: linkedin
     url: https://linkedin.com/in/vanessaragains
   - title: instagram
-    url: https://instagram.com/be_mobile_wellness
+    url: https://www.instagram.com/theanatomynerd/
 
 # The ribbon in ribbon.html will be rendered when this is true
 # Set to false to remove the ribbon
