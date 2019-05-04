@@ -234,12 +234,15 @@ background-size: cover;
   justify-content: center;
 }
 
-.pricing-column .section.first {
-  height: 110px;
+.pricing-column.year-commitment .section.first {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .pricing-column .section.last {
   border-bottom: none;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 .pricing-column .header, .pricing-column .section {
@@ -268,6 +271,7 @@ background-size: cover;
 
 .pricing-column.year-commitment .header {
   background-color: #ef4344;
+  color: white;
 }
 
 
