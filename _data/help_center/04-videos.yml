@@ -1,9 +1,0 @@
-label: Videos
-id: videos
-faqs:
-  - question: "Apple Cider Vinegar Drink"
-    answer: "<iframe width='560' height='315' src='https://www.youtube.com/embed/UOmb5pbEZi0' frameborder='0' allowfullscreen></iframe>"
-  - question: "Foam Roller Mini Workshop I"
-    answer: "<iframe width='560' height='315' src='https://www.youtube.com/embed/VYr5CEF0lAo' frameborder='0' allowfullscreen></iframe>"
-  - question: "Foam Roller Mini Workshop II"
-    answer: "<iframe width='560' height='315' src='https://www.youtube.com/embed/XYIN0YVCVT8' frameborder='0' allowfullscreen></iframe>"

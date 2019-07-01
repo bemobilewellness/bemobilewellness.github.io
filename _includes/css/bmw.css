@@ -305,7 +305,6 @@ footer.bmw a:hover {
 
 footer.bmw .nav-menu-column {
   border-left: 1px solid #000000;
-  min-height: 90px;
 }
 
 @media (max-width: 767px) {
