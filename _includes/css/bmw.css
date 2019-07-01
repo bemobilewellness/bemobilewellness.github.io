@@ -207,9 +207,10 @@ background-size: cover;
 
 .pricing-column {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   max-width: 200px;
-  min-height: 565px;
+  min-height: 480px;
+  position: relative;
 }
 
 .pricing-column ul {
@@ -221,6 +222,7 @@ background-size: cover;
 .pricing-column .header {
   align-items: center;
   display: flex;
+  font-size: 1.4em;
   font-weight: bold;
   height: 90px;
   justify-content: center;
@@ -228,21 +230,28 @@ background-size: cover;
 }
 
 .pricing-column .section {
- align-items: center;
-  border-bottom: 6px solid #c2c2c2;
+  align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.pricing-column.year-commitment .section.first {
-  font-size: 1.3em;
-  font-weight: bold;
+.pricing-column .change-section {
+  border-top: 6px solid #c2c2c2;
 }
 
-.pricing-column .section.last {
+.pricing-column.year-commitment .section.first {
+  font-size: 1.3em;
+}
+
+.pricing-column .section.footer {
   border-bottom: none;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  bottom: 0;
+  font-size: 22px;
+  font-weight: bold;
+  min-height: 75px;
+  left: 0;
+  position: absolute;
+  right: 0;
 }
 
 .pricing-column .header, .pricing-column .section {
@@ -253,7 +262,8 @@ background-size: cover;
   background-color: #8ad5cc;
 }
 
-.pricing-column.intro-offer .header {
+.pricing-column.intro-offer .header,
+.pricing-column.intro-offer .footer {
   background-color: #52c1b4;
 }
 
@@ -261,7 +271,8 @@ background-size: cover;
   background-color: #fbf6ca;
 }
 
-.pricing-column.a-la-carte .header {
+.pricing-column.a-la-carte .header,
+.pricing-column.a-la-carte .footer {
   background-color: #eed813;
 }
 
@@ -269,7 +280,8 @@ background-size: cover;
   background-color: #fac2c2;
 }
 
-.pricing-column.year-commitment .header {
+.pricing-column.year-commitment .header,
+.pricing-column.year-commitment .footer {
   background-color: #ef4344;
   color: white;
 }
