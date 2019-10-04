@@ -44,6 +44,10 @@ ribbon:
   text: Download Our App!
   link: http://mndbdy.ly/e/192309
 
+podcast:
+  link: https://anchor.fm/theanatomynerd
+  text: Podcast (Coming soon)
+
 
 # Build settings
 markdown: kramdown
